@@ -57,7 +57,7 @@ int main()
     Customer customers[numCustomers];
     // Taking input for each customer
     for (int i = 0; i < numCustomers; i++) {
-        cout << "\nCustomer " << i + 1 << ":\n";
+        cout << "\n Customer " << i + 1 << ":\n";
         customers[i].input();
     }
     // Displaying the bill for each customer
