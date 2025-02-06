@@ -28,9 +28,29 @@ void printMatrix(int mat[2][2])
 
 int main() 
 {
-    int mat1[2][2] = {{1, 2}, {3, 4}};
-    int mat2[2][2] = {{5, 6}, {7, 8}};
+    int mat1[2][2];
+    int mat2[2][2];
     int result[2][2];
+    cout<<"enter matrix1\n";
+    for (int i = 0; i < 2; i++) 
+    {
+        for (int j = 0; j < 2; j++) 
+        {
+            cin >> mat1[i][j]; 
+            cout<< " ";
+        }
+        cout << endl;
+    }
+    cout<<"enter matrix2\n";
+    for (int i = 0; i < 2; i++) 
+    {
+        for (int j = 0; j < 2; j++) 
+        {
+            cin >> mat2[i][j] ;
+            cout<< " ";
+        }
+        cout << endl;
+    }
     multiplyMatrices(mat1, mat2, result);
     cout << "Result of multiplication: " << endl;
     printMatrix(result);
