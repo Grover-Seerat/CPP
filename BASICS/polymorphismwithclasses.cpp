@@ -18,7 +18,7 @@ public:
         cout << "Drawing a circle." << endl;
     }
 };
-// Derived class
+// Derived class of rectangle
 class Rectangle : public Shape 
 {
 public:
