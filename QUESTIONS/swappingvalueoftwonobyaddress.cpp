@@ -15,11 +15,11 @@ int main()
     cin >> x;
     cout << "Enter second number: ";
     cin >> y;
-    // Display numbers before swap
+    // Display numbers before swapping
     cout << "Before swapping: " << "x = " << x << ", y = " << y << endl;
     // Call swap function
     swap(x, y);
-    // Display numbers after swap
+    // Display numbers after swapping
     cout << "After swapping: " << "x = " << x << ", y = " << y << endl;
     return 0;
 }
