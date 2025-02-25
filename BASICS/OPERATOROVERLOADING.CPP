@@ -33,6 +33,10 @@ int main()
     space s;
     s.getdata(10,-20,30);
     cout<<"s:";
-    s.display()
+    s.display();
+    -s;//using - (unary minus) to revert the sign of the given value
+    cout<<"after operator overloading\n";
+    cout<<"s:";
+    s.display();
     return 0;
 }
