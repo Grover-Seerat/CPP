@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> // for setw
+#include <iomanip> // package for setw
 using namespace std;
 int main()
 {
